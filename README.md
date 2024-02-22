@@ -1,53 +1,70 @@
-# Tekton-Theme Frappe Custom App
+<div align="center">
+![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+<h1 align="center">Tekton-Theme: Uplift Your Empress User Interface</h1>
+<p align="center">
+Offering a collection of stunning themes to enhance your Empress environment.
+<br />
+<a href="https://grow.empress.eco/">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/tekton_theme/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/tekton_theme/issues">Request Feature</a>
+</p>
+</div>
 
-Tekton-Theme is a custom app for Frappe that enhances the theme switcher functionality by providing additional themes. As of now, it includes one theme called 'Tekton Blue'.
+## About The Project
 
-![image](https://github.com/vineyrawat/Tekton-Theme/assets/77631301/0923eb34-1232-4dc1-ab60-852ec66af2ef)
+### 📖 Overview
+Tekton-Theme is a custom application crafted for the Framework. It expands the default theme switcher capabilities by introducing a variety of high-quality themes. The project is designed to augment user experience and personalization within the Empress environment.
 
+### 🌟 Key Features
+- Hassle-free installation process.
+- A collection of unique and appealing themes for the Empress theme switcher.
+- Frequent updates introducing more diverse themes.
 
-## Installation
+### 🛠 Built With
+This project primarily utilizes the following major framework:
 
-To install the Tekton-Theme custom app, follow the steps below:
+- Empress
 
-1. Make sure you have Frappe installed and set up in your environment.
-2. Clone the Tekton-Theme repository from GitHub into the `apps` directory of your Frappe instance:
+## Getting Started
 
-```
-cd /path/to/frappe-bench
-bench get-app tekton_theme https://github.com/vineyrawat/Tekton-Theme.git
-```
+### Prerequisites
+Ensure Empress is already installed and properly configured in your environment.
 
-3. Install the app using the Frappe Bench:
+### Installation
+Here are the steps to effortlessly integrate Tekton-Theme into your Empress environment:
 
-```
-cd /path/to/frappe-bench
+```sh
+# Navigate to your Empress directory
+cd /path/to/Empress-bench
+
+# Clone the Tekton-Theme repository
+bench get-app tekton_theme https://github.com/empress-eco/tekton_theme.git
+
+# Install the app using the Empress Bench
+cd /path/to/Empress-bench
 bench --site your-site-name install-app tekton_theme
+
+# Restart your Empress instance to apply the changes
 ```
-
-4. After successful installation, restart your Frappe instance to apply the changes.
-
-## Available Themes
-
-As of now, the Tekton-Theme custom app provides the following theme:
-
-1. Tekton Blue
 
 ## Usage
-
-Once you have installed the Tekton-Theme custom app, you can access the theme switcher in your Frappe instance and select 'Tekton Blue' from the list of available themes. The selected theme will be applied to your Frappe application.
-
-Please note that more themes may be added in future updates of the Tekton-Theme app.
+Post-installation, navigate to the theme switcher in your Empress environment and select 'Tekton Blue' or other available themes. The selected theme will instantly spruce up your Empress application.
 
 ## Contributing
+Your contributions are welcomed and appreciated! Here's how you can contribute:
 
-If you have ideas for additional themes or improvements to the Tekton-Theme app, we welcome contributions. Feel free to fork the repository, make changes, and submit a pull request.
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-## License
+## License and Acknowledgements
 
-This Frappe custom app is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
+### License
+This project is licensed under the MIT License. Contributions made to this project are also under the MIT License.
 
-## Support
-
-For any issues, questions, or support related to the Tekton-Theme app, you can create an issue on the GitHub repository or contact the maintainers directly.
-
-Thank you for using Tekton-Theme for Frappe! We hope you enjoy the extra theme options it provides for your application.
+### Acknowledgements
+A heartfelt thank you to the Empress Community for providing the essential tools and functionalities that serve as the backbone of this project. Their innovative solutions and dedicated support have been instrumental in the success of Tekton-Theme. We deeply appreciate their pioneering efforts and continued assistance.
